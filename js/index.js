@@ -2,6 +2,8 @@ require('dotenv').config({path: '.env'});
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
+const cmd = '!'
+
 
 bot.login(TOKEN);
 
@@ -21,5 +23,8 @@ bot.on('message', msg => {
     } else {
       msg.reply('Please tag a valid user!');
     }
+  } else if (msg.content === `${cmd}flip`){
+    var coin = require("./coin-flip.js");
+    msg.channel.send(coin.flip())
   }
 });

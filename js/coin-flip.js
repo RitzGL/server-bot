@@ -10,16 +10,15 @@ function getRandomFloat(){
 // get random float
 // compare to 0.5
 // log or send message of result
-function flipCoin(){
+exports.flip = function(){
     let float = getRandomFloat();
     if(float > 0.5){
-        console.log("Heads!") // this will be changed to whatever code to send msg to server
+        return "Heads!" // this will be changed to whatever code to send msg to server
     }else if(float < 0.5){
-        console.log("Tails!") // this will be changed to whatever code to send msg to server
+        return "Tails!" // this will be changed to whatever code to send msg to server
     }
 }
 
-flipCoin();
 
 // loop for testing, seems to favour tails
 // for(let i = 0; i < 50; i++){
