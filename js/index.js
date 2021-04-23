@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
+
 bot.login(TOKEN);
 
 bot.on('ready', () => {
@@ -21,5 +22,8 @@ bot.on('message', msg => {
     } else {
       msg.reply('Please tag a valid user!');
     }
+  } else if (msg.content === '!flip'){
+    var coin = require("./coin-flip.js");
+    msg.channel.send(coin.flip())
   }
 });
