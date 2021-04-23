@@ -16,3 +16,9 @@ Functionality yet to be determined.
 ## Must be added
 
 1. Dad jokes and insults - suggested by B
+
+## Resources
+
+Discord.js node module - https://discord.js.org/#/
+Discord.js guide - https://discordjs.guide/
+Discord.js documentation - https://discord.js.org/#/docs/main/stable/general/welcome
