@@ -4,6 +4,7 @@ const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 const cmd = '!'
 const coin = require("./coin-flip.js");
+const axios = require('axios');
 // var mdn = require('./mdn-search')
 
 bot.login(TOKEN);
@@ -21,6 +22,12 @@ bot.on('message', msg => {
   if (command === `${cmd}whatis`) {
     msg.channel.send(`https://developer.mozilla.org/en-US/search?q=${args}`);
   }
+
+  if (command === `${cmd}joke`) {
+    const jokeRespone = axios(`https://icanhazdadjoke.com/slack`)
+    .then(response => msg.channel.send(response.data.attachments[0].text))
+  }
+
 
   if (command === `${cmd}2up`) {
     let flips = []
