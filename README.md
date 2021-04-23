@@ -12,3 +12,7 @@ Functionality yet to be determined.
 2. Given a command, return images of command's name. ie !dog returns picture of dog.
 3. Responses to determined user messages. 
 4. Responses to determined emojis sent in a single message.
+
+## Must be added
+
+1. Dad jokes and insults - suggested by B
