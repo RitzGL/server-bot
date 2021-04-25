@@ -82,9 +82,9 @@ bot.on('message', msg => {
 
 
 bot.on('message', msg => {
-    if (msg.content === `${cmd}readme`) {
-      wordCatcher(msg)
-};
+  if (msg.content === `${cmd}readme`) {
+    wordCatcher(msg)
+  };
 });
 
 function wordCatcher(msg) {
@@ -98,14 +98,15 @@ function wordCatcher(msg) {
       collector.stop()
       console.log('stopped')
     } else {
-    console.log(`Collected ${m.content}`);
-    let readmeText = ''
-    readmeText += m.content
-    let mdAdjust = readmeText.replace('heading','##')
-    mdAdjust = mdAdjust.replace('subtitle','###')
-    mdAdjust = mdAdjust.replace('title','#')
-    collectedText.push(mdAdjust)
-  }});
+      console.log(`Collected ${m.content}`);
+      let readmeText = ''
+      readmeText += m.content
+      let mdAdjust = readmeText.replace('heading', '##')
+      mdAdjust = mdAdjust.replace('subtitle', '###')
+      mdAdjust = mdAdjust.replace('title', '#')
+      collectedText.push(mdAdjust)
+    }
+  });
 
   collector.on('end', collected => {
     console.log(`Collected ${collectedText.length} items`);
@@ -113,7 +114,7 @@ function wordCatcher(msg) {
     let finalContent = '';
 
     collectedText.forEach(element => {
-      finalContent += ('\n' + element);
+      finalContent += (element + '\n');
     })
     makeReadme(finalContent, msg)
   });
