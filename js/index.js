@@ -5,8 +5,9 @@ const TOKEN = process.env.TOKEN;
 const cmd = '!'
 const coin = require("./coin-flip.js");
 const axios = require('axios');
-var FileSaver = require('file-saver');
-const Blob = require("cross-blob");
+const { title } = require('process');
+// const FileSaver = require('file-saver'); //uninstall
+// const Blob = require("cross-blob"); //uninstall
 fs = require('fs');
 // var mdn = require('./mdn-search')
 
@@ -24,19 +25,6 @@ bot.on('message', msg => {
   const argsString = msg.content;
   const command = args.shift().toLowerCase();
   // console.log(args)
-
-  if (command === `${cmd}create`) { 
-    let str = `${argsString}`
-    str = str.substring(8)
-    fs.writeFile('helloworld.md', `${str}`, function (err) {
-      if (err) return console.log(err);
-      console.log('Hello World > helloworld.md');
-    });
-    msg.channel.send({
-      files: ['helloworld.md']
-    });
- };
-
 
   if (command === `${cmd}whatis`) {
     msg.channel.send(`https://developer.mozilla.org/en-US/search?q=${args}`);
@@ -83,7 +71,7 @@ bot.on('message', msg => {
     msg.channel.send(coin.flip())
   }
 
-  if (msg.content === `${cmd}readme`) {
+  if (msg.content === `${cmd}monkey`) {
     msg.channel.send({
       files: ['./test/Monky.webp']
     });
@@ -94,18 +82,49 @@ bot.on('message', msg => {
 
 
 bot.on('message', msg => {
-if (msg.content === 'discord') {
-  const filter = m => m.content.includes('discord');
-  const collector = msg.channel.createMessageCollector(filter, { time: 15000 });
-  
+    if (msg.content === `${cmd}readme`) {
+      wordCatcher(msg)
+};
+});
+
+function wordCatcher(msg) {
+  var collectedText = []
+  var initiator = msg.member
+  const filter = m => m.member == initiator;
+  const collector = msg.channel.createMessageCollector(filter, { idle: 60000 });
+
   collector.on('collect', m => {
+    if (m.content === 'stop') {
+      collector.stop()
+      console.log('stopped')
+    } else {
     console.log(`Collected ${m.content}`);
-  });
-  
+    let readmeText = ''
+    readmeText += m.content
+    let mdAdjust = readmeText.replace('heading','##')
+    mdAdjust = mdAdjust.replace('subtitle','###')
+    mdAdjust = mdAdjust.replace('title','#')
+    collectedText.push(mdAdjust)
+  }});
+
   collector.on('end', collected => {
-    console.log(`Collected ${collected.size} items`);
+    console.log(`Collected ${collectedText.length} items`);
+
+    let finalContent = '';
+
+    collectedText.forEach(element => {
+      finalContent += ('\n' + element);
+    })
+    makeReadme(finalContent, msg)
   });
 }
 
-
-});
+function makeReadme(str, msg) {
+  fs.writeFile('helloworld.md', `${str}`, function (err) {
+    if (err) return console.log(err);
+    console.log('Hello World > helloworld.md');
+  });
+  msg.channel.send({
+    files: ['helloworld.md']
+  });
+}
