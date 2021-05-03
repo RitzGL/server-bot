@@ -72,6 +72,7 @@ bot.on('message', msg => {
   }
 
   if (msg.content === `${cmd}monkey`) {
+    msg.delete()
     msg.channel.send({
       files: ['./test/Monky.webp']
     });
