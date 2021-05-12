@@ -58,7 +58,7 @@ bot.on('message', async msg => {
   }
 
   //if (command === `${cmd}join`|| command === `${cmd}play`) {
-  }
+  // }
 
   //await music.play(msg,command,cmd,args,bot)
   
