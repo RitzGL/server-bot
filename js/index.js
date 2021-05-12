@@ -8,7 +8,7 @@ const axios = require('axios');
 const stock = require('./Assets/stock')
 const readme = require('./Assets/READMEGen')
 const { title } = require('process');
-//const music = require('./Assets/music')
+const music = require('./Assets/music')
 fs = require('fs');
 const joke = require('./Assets/dadJokes')
 
@@ -18,7 +18,7 @@ bot.on('ready', () => {
   console.info(`Logged in as ${bot.user.tag}!`);
 });
 
-bot.on('message', async msg => {
+bot.on('message', msg => {
   if (!msg.content.startsWith(cmd) || msg.author.bot) return;
   const args = msg.content.slice(msg.length).trim().split(' ');
   const argsString = msg.content;
@@ -56,15 +56,10 @@ bot.on('message', async msg => {
   if (command === `${cmd}stock`) {
     stock.basic(msg, args, axios)
   }
-
-  //if (command === `${cmd}join`|| command === `${cmd}play`) {
-  // }
-
-  //await music.play(msg,command,cmd,args,bot)
   
-  // if (command === `${cmd}play`) {
-  //   music.play(args)
-  // }
+  if (command === `${cmd}join`|| command === `${cmd}play`) {
+    music.play(msg,command,cmd,args)
+  }
 
 });
 
