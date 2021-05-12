@@ -30,14 +30,14 @@ function readTextFile() {
         filteredArray.pop(); // removes last item, was empty string
         
         let quote = generateRandomQuote(filteredArray);
-
-        return quote;
-        // console.log(quote);
+        console.log(quote);
+        // return quote;
+        
         
         // the message sending might need to happen here, since it's asynchronous AKA reading from file
 
     })
 }
 
-let quote = readTextFile();
-console.log(quote);
+readTextFile();
+// console.log(quote);
