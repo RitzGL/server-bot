@@ -2,8 +2,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "blob.js": "^1.0.1",
-    "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
-    "fs": "*"
+    "fs": "*",
+    "ytdl-core": "^4.7.0"
   }
 }
