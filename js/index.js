@@ -2,15 +2,16 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '?'
+const cmd = '?';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
-const stock = require('./Assets/stock')
-const readme = require('./Assets/READMEGen')
+const stock = require('./Assets/stock');
+const readme = require('./Assets/READMEGen');
+const quotes = require('./rami-quotes');
 const { title } = require('process');
 //const music = require('./Assets/music')
 fs = require('fs');
-const joke = require('./Assets/dadJokes')
+const joke = require('./Assets/dadJokes');
 
 bot.login(TOKEN);
 
