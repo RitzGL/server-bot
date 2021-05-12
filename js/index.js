@@ -56,7 +56,7 @@ bot.on('message', msg => {
   if (command === `${cmd}stock`) {
     stock.basic(msg, args, axios)
   }
-
+  
   if (command === `${cmd}join`|| command === `${cmd}play`) {
     music.play(msg,command,cmd,args)
   }
