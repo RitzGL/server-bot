@@ -2,6 +2,7 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
+// const coinSpot = process.env.coinSpotApi
 const cmd = '!'
 const coin = require("./coin-flip.js");
 const axios = require('axios');
@@ -78,6 +79,17 @@ bot.on('message', msg => {
     });
   }
 
+  if (command === `${cmd}stock`) {
+    if (args.length == 1) {
+      axios(`https://www.coinspot.com.au/pubapi/v2/latest/${args}`).then(function (data) { 
+        if(!data.data.prices) {
+          return msg.channel.send(`No prices found`)
+        }
+        msg.channel.send(`${args} current market value:\nBid: ${data.data.prices.bid}\nAsk: ${data.data.prices.ask}\nLast: ${data.data.prices.last}`)
+        // console.log(data)
+      })
+    }
+  }
 
 });
 
