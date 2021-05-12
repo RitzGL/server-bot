@@ -6,8 +6,8 @@ const voiceConnections = new Map()
 
 exports.play = async function (msg,command,cmd,args, discordClient) {
     // // const dispatcher = connection.play('/home/discord/audio.mp3');
-    
-    
+
+
     if (command === `${cmd}join`) {
         if (msg.member.voice.channel) {
             let voiceConnection = await msg.member.voice.channel.join()
@@ -34,7 +34,7 @@ exports.play = async function (msg,command,cmd,args, discordClient) {
                             })
                             .on('error', err => console.error(`Failed to play song - ${err}`));
         dispatcher.setVolumeLogarithmic(guildInfo.volume / 5);
-        guildInfo.voiceChannel.send(`Started playing a song! (*but which one* :eyes:)`);
+        guildInfo.textChannel.send(`Started playing a song! (*but which one* :eyes:)`);
     }
 
 }
