@@ -7,10 +7,12 @@ const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 const stock = require('./Assets/stock')
 const readme = require('./Assets/READMEGen')
+const quotes = require('./rami-quotes');
 const { title } = require('process');
 const music = require('./Assets/music')
 fs = require('fs');
 const joke = require('./Assets/dadJokes')
+const inspire = require(`./Assets/inspire`)
 
 bot.login(TOKEN);
 
@@ -57,8 +59,28 @@ bot.on('message', msg => {
     stock.basic(msg, args, axios)
   }
   
-  if (command === `${cmd}join`|| command === `${cmd}play`) {
+  if (command === `${cmd}inspire`) {
+    inspire.inspire(msg)
+  }
+
+  if (command === `${cmd}join`|| command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
     music.play(msg,command,cmd,args)
+  }
+
+  if (command === `${cmd}mock`){
+    let str = args.toString()
+    str = str.split("")
+    for (let i = 0; i < str.length; i++) {
+      if(Math.random() > 0.5) {
+        // console.log(str[i])
+        str[i] = str[i].toUpperCase()
+    }
+    else {
+        str[i] = str[i].toLowerCase()
+    }
+    }
+    str = str.toString().split(',').join(' ')
+    msg.channel.send(str)
   }
 
 });
