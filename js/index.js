@@ -58,26 +58,31 @@ bot.on('message', msg => {
   if (command === `${cmd}stock`) {
     stock.basic(msg, args, axios)
   }
-  
+
   if (command === `${cmd}inspire`) {
-    inspire.inspire(msg)
+    inspire.inspire(msg, args, fs)
   }
 
-  if (command === `${cmd}join`|| command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
-    music.play(msg,command,cmd,args)
+  if (command === `${cmd}tough`) {
+    console.log(msg)
+    // msg.author.send('Do better... Please')
   }
 
-  if (command === `${cmd}mock`){
+  if (command === `${cmd}join` || command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
+    music.play(msg, command, cmd, args)
+  }
+
+  if (command === `${cmd}mock`) {
     let str = args.toString()
     str = str.split("")
     for (let i = 0; i < str.length; i++) {
-      if(Math.random() > 0.5) {
+      if (Math.random() > 0.5) {
         // console.log(str[i])
         str[i] = str[i].toUpperCase()
-    }
-    else {
+      }
+      else {
         str[i] = str[i].toLowerCase()
-    }
+      }
     }
     str = str.toString().split(',').join(' ')
     msg.channel.send(str)
