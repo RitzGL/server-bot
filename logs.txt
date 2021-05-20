@@ -1,0 +1,334 @@
+2021-04-25T00:15:28: Error: Cannot find module 'axios'
+2021-04-25T00:15:28: Require stack:
+2021-04-25T00:15:28: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:28:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:28:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:28:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:28:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:28:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:28:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:28:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:28:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:28:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:28:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:28:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:28:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:28: }
+2021-04-25T00:15:29: Error: Cannot find module 'axios'
+2021-04-25T00:15:29: Require stack:
+2021-04-25T00:15:29: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:29:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:29:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:29:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:29:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:29:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:29:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:29:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:29:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:29:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:29:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:29:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:29:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:29: }
+2021-04-25T00:15:29: Error: Cannot find module 'axios'
+2021-04-25T00:15:29: Require stack:
+2021-04-25T00:15:29: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:29:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:29:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:29:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:29:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:29:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:29:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:29:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:29:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:29:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:29:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:29:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:29:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:29: }
+2021-04-25T00:15:30: Error: Cannot find module 'axios'
+2021-04-25T00:15:30: Require stack:
+2021-04-25T00:15:30: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:30:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:30:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:30:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:30:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:30:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:30:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:30:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:30:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:30:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:30:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:30:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:30:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:30: }
+2021-04-25T00:15:30: Error: Cannot find module 'axios'
+2021-04-25T00:15:30: Require stack:
+2021-04-25T00:15:30: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:30:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:30:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:30:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:30:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:30:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:30:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:30:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:30:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:30:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:30:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:30:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:30:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:30: }
+2021-04-25T00:15:31: Error: Cannot find module 'axios'
+2021-04-25T00:15:31: Require stack:
+2021-04-25T00:15:31: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:31:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:31:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:31:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:31:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:31:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:31:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:31:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:31:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:31:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:31:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:31:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:31:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:31: }
+2021-04-25T00:15:31: Error: Cannot find module 'axios'
+2021-04-25T00:15:31: Require stack:
+2021-04-25T00:15:31: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:31:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:31:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:31:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:31:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:31:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:31:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:31:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:31:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:31:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:31:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:31:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:31:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:31: }
+2021-04-25T00:15:32: Error: Cannot find module 'axios'
+2021-04-25T00:15:32: Require stack:
+2021-04-25T00:15:32: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:32:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:32:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:32:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:32:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:32:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:32:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:32:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:32:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:32:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:32:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:32:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:32: }
+2021-04-25T00:15:32: Error: Cannot find module 'axios'
+2021-04-25T00:15:32: Require stack:
+2021-04-25T00:15:32: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:32:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:32:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:32:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:32:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:32:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:32:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:32:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:32:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:32:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:32:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:32:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:32:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:32: }
+2021-04-25T00:15:33: Error: Cannot find module 'axios'
+2021-04-25T00:15:33: Require stack:
+2021-04-25T00:15:33: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:33:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:33:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:33:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:33:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:33:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:33:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:33:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:33:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:33:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:33:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:33:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:33:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:33: }
+2021-04-25T00:15:33: Error: Cannot find module 'axios'
+2021-04-25T00:15:33: Require stack:
+2021-04-25T00:15:33: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:33:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:33:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:33:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:33:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:33:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:33:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:33:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:33:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:33:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:33:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:33:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:33:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:33: }
+2021-04-25T00:15:34: Error: Cannot find module 'axios'
+2021-04-25T00:15:34: Require stack:
+2021-04-25T00:15:34: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:34:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:34:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:34:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:34:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:34:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:34:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:34:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:34:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:34:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:34:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:34:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:34:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:34: }
+2021-04-25T00:15:35: Error: Cannot find module 'axios'
+2021-04-25T00:15:35: Require stack:
+2021-04-25T00:15:35: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:35:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:35:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:35:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:35:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:35:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:35:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:35:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:35:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:35:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:35:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:35:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:35:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:35: }
+2021-04-25T00:15:35: Error: Cannot find module 'axios'
+2021-04-25T00:15:35: Require stack:
+2021-04-25T00:15:35: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:35:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:35:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:35:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:35:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:35:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:35:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:35:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:35:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:35:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:35:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:35:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:35:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:35: }
+2021-04-25T00:15:36: Error: Cannot find module 'axios'
+2021-04-25T00:15:36: Require stack:
+2021-04-25T00:15:36: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:36:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:36:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:36:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:36:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:36:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:36:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:36:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:36:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:36:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:36:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:36:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:36:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:36: }
+2021-04-25T00:15:36: Error: Cannot find module 'axios'
+2021-04-25T00:15:36: Require stack:
+2021-04-25T00:15:36: - /home/rizer/server-bot/js/index.js
+2021-04-25T00:15:36:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-04-25T00:15:36:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-04-25T00:15:36:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-04-25T00:15:36:     at Object.<anonymous> (/home/rizer/server-bot/js/index.js:7:15)
+2021-04-25T00:15:36:     at Module._compile (node:internal/modules/cjs/loader:1108:14)
+2021-04-25T00:15:36:     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+2021-04-25T00:15:36:     at Module.load (node:internal/modules/cjs/loader:988:32)
+2021-04-25T00:15:36:     at Function.Module._load (node:internal/modules/cjs/loader:828:14)
+2021-04-25T00:15:36:     at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+2021-04-25T00:15:36:     at Module._compile (node:internal/modules/cjs/loader:1108:14) {
+2021-04-25T00:15:36:   code: 'MODULE_NOT_FOUND',
+2021-04-25T00:15:36:   requireStack: [ '/home/rizer/server-bot/js/index.js' ]
+2021-04-25T00:15:36: }
+2021-04-25T00:20:01: Logged in as RamiBot#6041!
+2021-04-25T00:33:46: Hello World > helloworld.md
+2021-04-25T00:36:00: Hello World > helloworld.md
+2021-04-25T08:59:46: Collected 0 items
+2021-04-25T09:01:15: Collected 0 items
+2021-04-25T09:04:01: Collected 0 items
+2021-04-25T09:06:33: Collected 0 items
+2021-04-25T09:09:08: Collected 0 items
+2021-04-25T09:10:58: Collected 0 items
+2021-04-25T09:12:54: Collected 0 items
+2021-04-25T09:13:17: Collected 0 items
+2021-04-25T09:27:35: Collected 0 items
+2021-04-25T09:30:37: Collected 0 items
+2021-04-25T09:35:36: Collected 0 items
+2021-04-25T09:39:52: Collected 0 items
+2021-04-25T09:42:48: Collected 0 items
+2021-04-25T09:55:39: Collected 0 items
+2021-04-25T09:56:57: Collected 0 items
+2021-04-25T09:57:47: Collected 0 items
+2021-04-25T09:59:23: Collected 0 items
+2021-04-25T10:00:57: Collected 0 items
+2021-04-25T10:04:53: Collected 0 items
+2021-04-25T10:10:11: Collected 0 items
+2021-04-25T10:11:10: Collected 0 items
+2021-04-25T10:11:55: Collected 0 items
+2021-04-25T10:12:15: Collected 0 items
+2021-04-25T10:14:06: Collected 0 items
+2021-04-25T10:14:27: Collected 0 items
+2021-04-25T10:16:28: Collected 0 items
+2021-04-25T10:21:03: Collected 0 items
+2021-04-25T10:30:13: Collected 0 items
+2021-04-25T10:31:37: Collected 0 items
+2021-04-25T10:32:19: Collected 0 items
+2021-04-25T10:34:44: Collected 0 items
+2021-04-25T10:38:42: Collected 0 items
+2021-04-25T17:30:16: Logged in as RamiBot#6041!
+2021-04-25T17:32:34: Logged in as RamiBot#6041!
+2021-04-25T17:33:26: Collected #work
+2021-04-25T17:33:29: Collected wait
+2021-04-25T17:33:35: Collected title work
+2021-04-25T17:33:38: Collected 3 items
+2021-04-25T17:33:38: stopped
+2021-04-25T17:33:38: Hello World > helloworld.md
+2021-04-25T17:39:41: Logged in as RamiBot#6041!
+2021-04-25T18:17:22: Collected title lmao
+2021-04-25T18:17:28: Collected heading shut up Ryz
+2021-04-25T18:17:34: Collected 2 items
+2021-04-25T18:17:34: stopped
+2021-04-25T18:17:34: Hello World > helloworld.md
+2021-04-25T19:08:02: Collected title test name
+2021-04-25T19:08:10: Collected a brief description
+2021-04-25T19:08:26: Collected heading a segment such as how to use
+2021-04-25T19:08:41: Collected subtitle authors
+2021-04-25T19:08:44: Collected Ricky
+2021-04-25T19:08:46: Collected 5 items
+2021-04-25T19:08:46: stopped
+2021-04-25T19:08:46: Hello World > helloworld.md
+2021-04-26T12:21:36: Collected hyum
+2021-04-26T12:22:36: Collected 1 items
+2021-04-26T12:22:36: Hello World > helloworld.md
+2021-04-28T13:19:14: Collected title myTitle
+2021-04-28T13:19:20: Collected this is a description
+2021-04-28T13:19:28: Collected this is another description
+2021-04-28T13:19:41: Collected subtitle mySubtitle
+2021-04-28T13:19:45: Collected 4 items
+2021-04-28T13:19:45: stopped
+2021-04-28T13:19:45: Hello World > helloworld.md
+2021-04-28T14:25:33: Collected title my title
+2021-04-28T14:25:48: Collected heading my heading
+2021-04-28T14:26:08: Collected subtitle my subtitle
+2021-04-28T14:26:10: Collected 3 items
+2021-04-28T14:26:10: stopped
+2021-04-28T14:26:10: Hello World > helloworld.md
+2021-05-03T19:47:51: Logged in as RamiBot#6041!
+2021-05-05T14:23:26: Collected F
+2021-05-05T14:23:28: Collected 1 items
+2021-05-05T14:23:28: stopped
+2021-05-05T14:23:28: Hello World > helloworld.md
