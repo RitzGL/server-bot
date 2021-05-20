@@ -36,6 +36,7 @@ exports.generateQuote = function readTextFile() {
             console.log(quote);
             // return quote;
             
+            resolve(quote);
             
             // the message sending might need to happen here, since it's asynchronous AKA reading from file
     
