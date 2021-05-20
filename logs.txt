@@ -332,3 +332,321 @@
 2021-05-05T14:23:28: Collected 1 items
 2021-05-05T14:23:28: stopped
 2021-05-05T14:23:28: Hello World > helloworld.md
+2021-05-19T13:47:51: Lets go through this and de-crappify this file. Because it looks like crap at the minute
+2021-05-19T13:47:53: Logged in as RamiBot#6041!
+2021-05-19T13:53:22: die in fire!
+2021-05-19T13:53:24: Logged in as RamiBot#6041!
+2021-05-19T13:55:59: Logged in as RamiBot#6041!
+2021-05-19T13:56:18: The criminal that wrote this doesnt really love developers, so were just going to put a break and then ignore the rest of the crap theyve written here
+2021-05-19T13:56:19: Logged in as RamiBot#6041!
+2021-05-19T14:23:37: 
+2021-05-19T14:23:37: 
+2021-05-19T14:23:37: 
+2021-05-19T14:23:38: Logged in as RamiBot#6041!
+2021-05-19T14:23:49: Logged in as RamiBot#6041!
+2021-05-19T14:24:11: maybe I dont want to date this person
+2021-05-19T14:24:12: Logged in as RamiBot#6041!
+2021-05-19T14:24:23: Logged in as RamiBot#6041!
+2021-05-19T17:47:40: DiscordAPIError: Unknown Message
+2021-05-19T17:47:40:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T17:47:40:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T17:47:40:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T17:47:40:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T17:47:40:   method: 'delete',
+2021-05-19T17:47:40:   path: '/channels/835681909614444584/messages/844511616757923870',
+2021-05-19T17:47:40:   code: 10008,
+2021-05-19T17:47:40:   httpStatus: 404
+2021-05-19T17:47:40: }
+2021-05-19T20:47:34: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:34:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:34:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:34:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:34:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:34:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:34:   method: 'delete',
+2021-05-19T20:47:34:   path: '/channels/844514206900420619/messages/844556887105470495',
+2021-05-19T20:47:34:   code: 50003,
+2021-05-19T20:47:34:   httpStatus: 403
+2021-05-19T20:47:34: }
+2021-05-19T20:47:34: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:34:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:34:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:34:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:34:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:34:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:34:   method: 'delete',
+2021-05-19T20:47:34:   path: '/channels/844514206900420619/messages/844556887105470495',
+2021-05-19T20:47:34:   code: 50003,
+2021-05-19T20:47:34:   httpStatus: 403
+2021-05-19T20:47:34: }
+2021-05-19T20:47:40: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:40:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:40:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:40:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:40:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:40:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:40:   method: 'delete',
+2021-05-19T20:47:40:   path: '/channels/844514206900420619/messages/844556916537688104',
+2021-05-19T20:47:40:   code: 50003,
+2021-05-19T20:47:40:   httpStatus: 403
+2021-05-19T20:47:40: }
+2021-05-19T20:47:40: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:40:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:40:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:40:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:40:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:40:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:40:   method: 'delete',
+2021-05-19T20:47:40:   path: '/channels/844514206900420619/messages/844556916537688104',
+2021-05-19T20:47:40:   code: 50003,
+2021-05-19T20:47:40:   httpStatus: 403
+2021-05-19T20:47:40: }
+2021-05-19T20:47:41: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:41:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:41:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:41:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:41:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:41:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:41:   method: 'delete',
+2021-05-19T20:47:41:   path: '/channels/844514206900420619/messages/844556919032774707',
+2021-05-19T20:47:41:   code: 50003,
+2021-05-19T20:47:41:   httpStatus: 403
+2021-05-19T20:47:41: }
+2021-05-19T20:47:41: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:41:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:41:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:41:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:41:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:41:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:41:   method: 'delete',
+2021-05-19T20:47:41:   path: '/channels/844514206900420619/messages/844556919032774707',
+2021-05-19T20:47:41:   code: 50003,
+2021-05-19T20:47:41:   httpStatus: 403
+2021-05-19T20:47:41: }
+2021-05-19T20:47:41: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:41:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:41:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:41:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:41:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:41:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:41:   method: 'delete',
+2021-05-19T20:47:41:   path: '/channels/844514206900420619/messages/844556922069581824',
+2021-05-19T20:47:41:   code: 50003,
+2021-05-19T20:47:41:   httpStatus: 403
+2021-05-19T20:47:41: }
+2021-05-19T20:47:47: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:47:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:47:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:47:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:47:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:47:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:47:   method: 'delete',
+2021-05-19T20:47:47:   path: '/channels/844514206900420619/messages/844556922069581824',
+2021-05-19T20:47:47:   code: 50003,
+2021-05-19T20:47:47:   httpStatus: 403
+2021-05-19T20:47:47: }
+2021-05-19T20:47:47: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:47:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:47:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:47:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:47:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:47:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:47:   method: 'delete',
+2021-05-19T20:47:47:   path: '/channels/844514206900420619/messages/844556924850012161',
+2021-05-19T20:47:47:   code: 50003,
+2021-05-19T20:47:47:   httpStatus: 403
+2021-05-19T20:47:47: }
+2021-05-19T20:47:48: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:47:48:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:47:48:     at runMicrotasks (<anonymous>)
+2021-05-19T20:47:48:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:47:48:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:47:48:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:47:48:   method: 'delete',
+2021-05-19T20:47:48:   path: '/channels/844514206900420619/messages/844556924850012161',
+2021-05-19T20:47:48:   code: 50003,
+2021-05-19T20:47:48:   httpStatus: 403
+2021-05-19T20:47:48: }
+2021-05-19T20:48:16: HTTPError [AbortError]: The user aborted a request.
+2021-05-19T20:48:16:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:93:15)
+2021-05-19T20:48:16:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:48:16:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14) {
+2021-05-19T20:48:16:   code: 500,
+2021-05-19T20:48:16:   method: 'post',
+2021-05-19T20:48:16:   path: '/channels/844514206900420619/messages'
+2021-05-19T20:48:16: }
+2021-05-19T20:49:51: Logged in as RamiBot#6041!
+2021-05-19T20:50:41: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-19T20:50:41:     at RequestHandler.execute (/home/rizer/server-bot-dev/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-19T20:50:41:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-19T20:50:41:     at async RequestHandler.push (/home/rizer/server-bot-dev/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-19T20:50:41:     at async MessageManager.delete (/home/rizer/server-bot-dev/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-19T20:50:41:   method: 'delete',
+2021-05-19T20:50:41:   path: '/channels/844514206900420619/messages/844557673302982657',
+2021-05-19T20:50:41:   code: 50003,
+2021-05-19T20:50:41:   httpStatus: 403
+2021-05-19T20:50:41: }
+2021-05-20T01:45:11: <ref *2> Message {
+2021-05-20T01:45:11:   channel: <ref *1> DMChannel {
+2021-05-20T01:45:11:     type: 'dm',
+2021-05-20T01:45:11:     deleted: false,
+2021-05-20T01:45:11:     id: '844467864198184980',
+2021-05-20T01:45:11:     recipient: User {
+2021-05-20T01:45:11:       id: '274578726371459073',
+2021-05-20T01:45:11:       system: null,
+2021-05-20T01:45:11:       locale: null,
+2021-05-20T01:45:11:       flags: [UserFlags],
+2021-05-20T01:45:11:       username: 'Yacob',
+2021-05-20T01:45:11:       bot: false,
+2021-05-20T01:45:11:       discriminator: '3987',
+2021-05-20T01:45:11:       avatar: '0c5b75d3744846433da5d8ce12960c64',
+2021-05-20T01:45:11:       lastMessageID: '844631789285015602',
+2021-05-20T01:45:11:       lastMessageChannelID: '844467864198184980'
+2021-05-20T01:45:11:     },
+2021-05-20T01:45:11:     lastMessageID: '844631789285015602',
+2021-05-20T01:45:11:     lastPinTimestamp: null,
+2021-05-20T01:45:11:     messages: MessageManager {
+2021-05-20T01:45:11:       cacheType: [class LimitedCollection extends Collection],
+2021-05-20T01:45:11:       cache: [LimitedCollection [Map]],
+2021-05-20T01:45:11:       channel: [Circular *1]
+2021-05-20T01:45:11:     },
+2021-05-20T01:45:11:     _typing: Map(1) { '274578726371459073' => [Object] }
+2021-05-20T01:45:11:   },
+2021-05-20T01:45:11:   deleted: false,
+2021-05-20T01:45:11:   id: '844631789285015602',
+2021-05-20T01:45:11:   type: 'DEFAULT',
+2021-05-20T01:45:11:   system: false,
+2021-05-20T01:45:11:   content: '?tough',
+2021-05-20T01:45:11:   author: User {
+2021-05-20T01:45:11:     id: '274578726371459073',
+2021-05-20T01:45:11:     system: null,
+2021-05-20T01:45:11:     locale: null,
+2021-05-20T01:45:11:     flags: UserFlags { bitfield: 0 },
+2021-05-20T01:45:11:     username: 'Yacob',
+2021-05-20T01:45:11:     bot: false,
+2021-05-20T01:45:11:     discriminator: '3987',
+2021-05-20T01:45:11:     avatar: '0c5b75d3744846433da5d8ce12960c64',
+2021-05-20T01:45:11:     lastMessageID: '844631789285015602',
+2021-05-20T01:45:11:     lastMessageChannelID: '844467864198184980'
+2021-05-20T01:45:11:   },
+2021-05-20T01:45:11:   pinned: false,
+2021-05-20T01:45:11:   tts: false,
+2021-05-20T01:45:11:   nonce: '850802569746841600',
+2021-05-20T01:45:11:   embeds: [],
+2021-05-20T01:45:11:   attachments: Collection(0) [Map] {},
+2021-05-20T01:45:11:   createdTimestamp: 1621446311065,
+2021-05-20T01:45:11:   editedTimestamp: 0,
+2021-05-20T01:45:11:   reactions: ReactionManager {
+2021-05-20T01:45:11:     cacheType: [class Collection extends Collection],
+2021-05-20T01:45:11:     cache: Collection(0) [Map] {},
+2021-05-20T01:45:11:     message: [Circular *2]
+2021-05-20T01:45:11:   },
+2021-05-20T01:45:11:   mentions: MessageMentions {
+2021-05-20T01:45:11:     everyone: false,
+2021-05-20T01:45:11:     users: Collection(0) [Map] {},
+2021-05-20T01:45:11:     roles: Collection(0) [Map] {},
+2021-05-20T01:45:11:     _members: null,
+2021-05-20T01:45:11:     _channels: null,
+2021-05-20T01:45:11:     crosspostedChannels: Collection(0) [Map] {}
+2021-05-20T01:45:11:   },
+2021-05-20T01:45:11:   webhookID: null,
+2021-05-20T01:45:11:   application: null,
+2021-05-20T01:45:11:   activity: null,
+2021-05-20T01:45:11:   _edits: [],
+2021-05-20T01:45:11:   flags: MessageFlags { bitfield: 0 },
+2021-05-20T01:45:11:   reference: null
+2021-05-20T01:45:11: }
+2021-05-20T08:06:26: Logged in as RamiBot#6041!
+2021-05-20T08:06:32: 163
+2021-05-20T08:06:41: 163
+2021-05-20T08:06:41: [Error: ENOENT: no such file or directory, stat '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'] {
+2021-05-20T08:06:41:   errno: -2,
+2021-05-20T08:06:41:   code: 'ENOENT',
+2021-05-20T08:06:41:   syscall: 'stat',
+2021-05-20T08:06:41:   path: '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'
+2021-05-20T08:06:41: }
+2021-05-20T08:06:53: 163
+2021-05-20T08:06:53: [Error: ENOENT: no such file or directory, stat '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'] {
+2021-05-20T08:06:53:   errno: -2,
+2021-05-20T08:06:53:   code: 'ENOENT',
+2021-05-20T08:06:53:   syscall: 'stat',
+2021-05-20T08:06:53:   path: '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'
+2021-05-20T08:06:53: }
+2021-05-20T08:06:57: 163
+2021-05-20T08:07:06: 163
+2021-05-20T08:09:03: 163
+2021-05-20T08:09:03: [Error: ENOENT: no such file or directory, stat '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'] {
+2021-05-20T08:09:03:   errno: -2,
+2021-05-20T08:09:03:   code: 'ENOENT',
+2021-05-20T08:09:03:   syscall: 'stat',
+2021-05-20T08:09:03:   path: '/home/rizer/server-bot-dev/js/Assets/youcandoallthings/inspire162.png'
+2021-05-20T08:09:03: }
+2021-05-20T08:09:09: 163
+2021-05-20T08:10:38: Logged in as RamiBot#6041!
+2021-05-20T08:10:44: 163
+2021-05-20T08:10:48: 163
+2021-05-20T08:11:00: 163
+2021-05-20T08:14:25: 164
+2021-05-20T08:14:30: 164
+2021-05-20T08:14:53: 164
+2021-05-20T08:19:10: 164
+2021-05-20T10:21:36: Ricky, your hair has so much volume
+2021-05-20T10:21:38: Logged in as RamiBot#6041!
+2021-05-20T11:07:26: Logged in as RamiBot#6041!
+2021-05-20T11:07:43: '...there's a body here...'
+2021-05-20T11:07:43: DiscordAPIError: Cannot send an empty message
+2021-05-20T11:07:43:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-20T11:07:43:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-20T11:07:43:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14) {
+2021-05-20T11:07:43:   method: 'post',
+2021-05-20T11:07:43:   path: '/channels/835048911584362577/messages',
+2021-05-20T11:07:43:   code: 50006,
+2021-05-20T11:07:43:   httpStatus: 400
+2021-05-20T11:07:43: }
+2021-05-20T11:33:05: Logged in as RamiBot#6041!
+2021-05-20T11:33:10: 'Before we all get hammered here, and not in a good way...'
+2021-05-20T11:33:11: DiscordAPIError: Cannot send an empty message
+2021-05-20T11:33:11:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-20T11:33:11:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-20T11:33:11:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14) {
+2021-05-20T11:33:11:   method: 'post',
+2021-05-20T11:33:11:   path: '/channels/835048911584362577/messages',
+2021-05-20T11:33:11:   code: 50006,
+2021-05-20T11:33:11:   httpStatus: 400
+2021-05-20T11:33:11: }
+2021-05-20T11:40:04: 'Arrow functions don't respect any of that'
+2021-05-20T11:40:04: DiscordAPIError: Cannot send an empty message
+2021-05-20T11:40:04:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-20T11:40:04:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-20T11:40:04:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14) {
+2021-05-20T11:40:04:   method: 'post',
+2021-05-20T11:40:04:   path: '/channels/835048911584362577/messages',
+2021-05-20T11:40:04:   code: 50006,
+2021-05-20T11:40:04:   httpStatus: 400
+2021-05-20T11:40:04: }
+2021-05-20T11:50:10: Logged in as RamiBot#6041!
+2021-05-20T11:50:16: [Error: ENOENT: no such file or directory, open './RAMI-QUOTES.txt'] {
+2021-05-20T11:50:16:   errno: -2,
+2021-05-20T11:50:16:   code: 'ENOENT',
+2021-05-20T11:50:16:   syscall: 'open',
+2021-05-20T11:50:16:   path: './RAMI-QUOTES.txt'
+2021-05-20T11:50:16: }
+2021-05-20T11:51:20: [Error: ENOENT: no such file or directory, open './RAMI-QUOTES.txt'] {
+2021-05-20T11:51:20:   errno: -2,
+2021-05-20T11:51:20:   code: 'ENOENT',
+2021-05-20T11:51:20:   syscall: 'open',
+2021-05-20T11:51:20:   path: './RAMI-QUOTES.txt'
+2021-05-20T11:51:20: }
+2021-05-20T11:52:34: [Error: ENOENT: no such file or directory, open './RAMI-QUOTES.txt'] {
+2021-05-20T11:52:34:   errno: -2,
+2021-05-20T11:52:34:   code: 'ENOENT',
+2021-05-20T11:52:34:   syscall: 'open',
+2021-05-20T11:52:34:   path: './RAMI-QUOTES.txt'
+2021-05-20T11:52:34: }
+2021-05-20T11:53:30: [Error: ENOENT: no such file or directory, open './RAMI-QUOTES.txt'] {
+2021-05-20T11:53:30:   errno: -2,
+2021-05-20T11:53:30:   code: 'ENOENT',
+2021-05-20T11:53:30:   syscall: 'open',
+2021-05-20T11:53:30:   path: './RAMI-QUOTES.txt'
+2021-05-20T11:53:30: }
+2021-05-20T11:54:29: Logged in as RamiBot#6041!

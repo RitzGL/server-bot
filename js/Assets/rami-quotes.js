@@ -10,10 +10,10 @@ function generateRandomQuote(quotes){
     return quotes[i];
 }
 
-exports.generateQuote = function readTextFile() {
+exports.generateQuote = function readTextFile(msg) {
 
 
-    fs.readFile("./RAMI-QUOTES.txt", "utf8", (err,data) =>{
+    fs.readFile("./Assets/RAMI-QUOTES.txt", "utf8", (err,data) =>{
         if (err){
             console.error(err);
             return;
