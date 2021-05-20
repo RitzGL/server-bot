@@ -13,7 +13,7 @@ const music = require('./Assets/music')
 fs = require('fs');
 const joke = require('./Assets/dadJokes')
 const inspire = require(`./Assets/inspire`)
-
+const pomodoro = require(`./Assets/pomodoro`)
 bot.login(TOKEN);
 
 bot.on('ready', () => {
@@ -63,9 +63,20 @@ bot.on('message', msg => {
     inspire.inspire(msg, args, fs)
   }
 
+  if (command === `${cmd}pomodoro`) {
+    pomodoro.timer(msg, fs)
+    console.log(msg.author.id)
+    // let user = require(`./Assets/${msg.author.id}`)
+  }
+
+  if (command === `${cmd}stoppom`) {
+    pomodoro.endTimer(msg, fs)
+    console.log(msg.author.id)
+    // let user = require(`./Assets/${msg.author.id}`)
+  }
+
   if (command === `${cmd}tough`) {
-    console.log(msg)
-    // msg.author.send('Do better... Please')
+    msg.author.send('Do better... Please')
   }
 
   if (command === `${cmd}join` || command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
@@ -87,7 +98,6 @@ bot.on('message', msg => {
     str = str.toString().split(',').join(' ')
     msg.channel.send(str)
   }
-
 });
 
 bot.on('message', msg => { readme.gen(msg, fs, cmd) })
