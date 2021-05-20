@@ -33,13 +33,6 @@ exports.generateQuote = function readTextFile() {
             
         let quote = generateRandomQuote(filteredArray);
         console.log(quote);
-        // return quote;
-        
-        // the message sending might need to happen here, since it's asynchronous AKA reading from file
         msg.channel.send(quote); 
-    })
-
-    
-    
+    })    
 }
-// console.log(quote);
