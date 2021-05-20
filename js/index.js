@@ -63,7 +63,7 @@ bot.on('message', msg => {
 
 
   if(command === `${cmd}quote`){
-    msg.channel.send(quotes.generateQuote())
+    quotes.generateQuote();
   }
 
 
