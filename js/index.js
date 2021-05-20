@@ -9,7 +9,7 @@ const axios = require('axios');
 const stock = require('./Assets/stock')
 const readme = require('./Assets/READMEGen')
 
-const quotes = require('./rami-quotes');
+const quotes = require('./Assets/rami-quotes');
 const { title } = require('process');
 const music = require('./Assets/music')
 fs = require('fs');
@@ -63,7 +63,7 @@ bot.on('message', msg => {
 
 
   if(command === `${cmd}quote`){
-    msg.channel.send(quotes.generateQuote())
+    quotes.generateQuote();
   }
 
 
