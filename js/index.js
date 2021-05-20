@@ -61,6 +61,12 @@ bot.on('message', msg => {
     stock.basic(msg, args, axios)
   }
 
+
+  if(command === `${cmd}quote`){
+    msg.channel.send(quotes.generateQuote())
+  }
+
+
   if (command === `${cmd}inspire`) {
     inspire.inspire(msg, args, fs)
   }
@@ -80,6 +86,7 @@ bot.on('message', msg => {
   if (command === `${cmd}tough`) {
     msg.author.send('Do better... Please')
   }
+
 
   if (command === `${cmd}join` || command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
     music.play(msg, command, cmd, args)
