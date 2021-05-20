@@ -58,6 +58,10 @@ bot.on('message', async msg => {
     stock.basic(msg, args, axios)
   }
 
+  if(command === `${cmd}quote`){
+    msg.channel.send(quotes.generateQuote())
+  }
+
   //if (command === `${cmd}join`|| command === `${cmd}play`) {
   // }
 
