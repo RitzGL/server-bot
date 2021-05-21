@@ -878,3 +878,9 @@
 2021-05-21T14:28:49: 167975644670459904
 2021-05-21T18:47:48: Logged in as RamiBot#6041!
 2021-05-21T18:51:32: Logged in as RamiBot#6041!
+2021-05-21T19:10:51: Logged in as RamiBot#6041!
+2021-05-21T19:14:10: Logged in as RamiBot#6041!
+2021-05-21T19:16:42: Logged in as RamiBot#6041!
+2021-05-21T19:17:04: ReferenceError: g is not defined
+2021-05-21T19:17:04:     at Object.exports.add (/home/rizer/server-bot/js/Assets/rami-quotes.js:23:91)
+2021-05-21T19:18:00: Logged in as RamiBot#6041!

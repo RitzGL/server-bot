@@ -20,7 +20,7 @@ exports.generateQuote = async function readTextFile(msg) {
 exports.add = async function (argsString, msg) {
     let filteredArray = await fileArrayer(10);
     filteredArray.quotes.push(`\'` + argsString.replace('!addquote ', '') + `\'`)
-    fs.writeFile(`./Assets/RAMI-QUOTES.json`, JSON.stringify(filteredArray),
+    fs.writeFile(`./Assets/RAMI-QUOTES.json`, JSON.stringify(filteredArray).replace(/","/g,'",\n"'),
         function (err) {
             if (err) return console.log(err);
             msg.channel.send(`added the quote ${argsString.replace('!addquote ', '')}`);
