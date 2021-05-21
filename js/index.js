@@ -2,7 +2,7 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '!';
+const cmd = '?';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 
@@ -28,71 +28,74 @@ bot.on('message', msg => {
   const argsString = msg.content;
   const command = args.shift().toLowerCase();
 
-  if (command === `${cmd}whatis`) {
+  if (command == `${cmd}whatis`) {
     msg.channel.send(`https://developer.mozilla.org/en-US/search?q=${args}`);
   }
 
-  if (command === `${cmd}joke`) {
+  if (command == `${cmd}joke`) {
     joke.dad(msg, axios)
   }
 
-  if (msg.content === `${cmd}flip`) {
+  if (msg.content == `${cmd}flip`) {
     msg.channel.send(coin.flip())
   }
-  if (command === `${cmd}2up`) {
+  if (command == `${cmd}2up`) {
     coin.twoUp(msg)
   }
 
-  if (msg.content === `${cmd}ping`) {
+  if (msg.content == `${cmd}ping`) {
     msg.reply('pong');
   }
-  if (msg.content === `${cmd}pong`) {
+  if (msg.content == `${cmd}pong`) {
     msg.reply('ping');
   }
 
-  if (msg.content === `${cmd}monkey` || msg.content === `${cmd}monke`) {
+  if (msg.content == `${cmd}monkey` || msg.content == `${cmd}monke`) {
     msg.delete()
     msg.channel.send({
       files: ['./test/Monky.webp']
     });
   }
 
-  if (command === `${cmd}stock`) {
+  if (command == `${cmd}stock`) {
     stock.basic(msg, args, axios)
   }
 
 
-  if(command === `${cmd}quote`){
+  if(command == `${cmd}quote`){
     quotes.generateQuote(msg);
+  }
+  if(command == `${cmd}addquote`){
+    quotes.add(argsString);
   }
 
 
-  if (command === `${cmd}inspire`) {
+  if (command == `${cmd}inspire`) {
     inspire.inspire(msg, args, fs)
   }
 
-  if (command === `${cmd}pomodoro`) {
+  if (command == `${cmd}pomodoro`) {
     pomodoro.timer(msg, fs)
     console.log(msg.author.id)
     // let user = require(`./Assets/${msg.author.id}`)
   }
 
-  if (command === `${cmd}stoppom`) {
+  if (command == `${cmd}stoppom`) {
     pomodoro.endTimer(msg, fs)
     console.log(msg.author.id)
     // let user = require(`./Assets/${msg.author.id}`)
   }
 
-  if (command === `${cmd}tough`) {
+  if (command == `${cmd}tough`) {
     msg.author.send('Do better... Please')
   }
 
 
-  if (command === `${cmd}join` || command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
+  if (command == `${cmd}join` || command === `${cmd}play` || command === `${cmd}volume` || command === `${cmd}leave`) {
     music.play(msg, command, cmd, args)
   }
 
-  if (command === `${cmd}mock`) {
+  if (command == `${cmd}mock`) {
     let str = args.toString()
     str = str.split("")
     for (let i = 0; i < str.length; i++) {

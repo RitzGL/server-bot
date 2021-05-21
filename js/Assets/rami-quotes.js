@@ -5,34 +5,37 @@ function getRandomInt(length) {
     return int;
 }
 
-function generateRandomQuote(quotes){
+function generateRandomQuote(quotes) {
     let i = getRandomInt(quotes.length);
     return quotes[i];
 }
 
-exports.generateQuote = function readTextFile(msg) {
+exports.generateQuote = async function readTextFile(msg) {
+    var quotes = await fileArrayer(10);
 
+    let quote = generateRandomQuote(quotes.quotes);
+    msg.channel.send(quote);
+}
 
-    fs.readFile("./Assets/RAMI-QUOTES.txt", "utf8", (err,data) =>{
-        if (err){
-            console.error(err);
-            return;
-        }
-    
-        let quoteArray = data.split("\"");
-            
-        let filteredArray = quoteArray.filter(quote => quote !== '\r\n') // removes weird \r\n fuckery
-        filteredArray = quoteArray.filter(quote => quote !== '\n') // removes \n
-            
-        for(let i = 0; i < filteredArray.length; i++){
-            filteredArray[i] = filteredArray[i].replace(/"/g, ''); // filters previously added \"
-        }
-            
-        filteredArray.shift(); // removes first item, was empty string
-        filteredArray.pop(); // removes last item, was empty string
-            
-        let quote = generateRandomQuote(filteredArray);
-        console.log(quote);
-        msg.channel.send(quote); 
-    })    
+exports.add = async function (argsString) {
+    let filteredArray = await fileArrayer(10);
+    filteredArray.quotes.push(`\'`+argsString.replace('?quoteadd ','')+`\'`)
+    fs.writeFile(`./Assets/RAMI-QUOTES.json`, JSON.stringify(filteredArray),
+        function (err) {
+            if (err) return console.log(err);
+            console.log(`added the quote ${argsString.replace('?quoteadd ','')}`);
+        })
+}
+
+function fileArrayer(quotes) {
+    return new Promise(resolve => {
+        fs.readFile("./Assets/RAMI-QUOTES.json", "utf8", (err, data) => {
+            if (err) {
+                console.error(err);
+                return;
+            }
+           let datatrans = JSON.parse(data)
+           resolve(datatrans)
+        })
+    });
 }
