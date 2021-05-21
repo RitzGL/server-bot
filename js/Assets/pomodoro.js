@@ -33,11 +33,11 @@ exports.timer = function (msg, fs) {
             },4500000)
             exports.stop = function () {
                 clearInterval(alert)
-                let timeouts = ['a','b','c','d','e','f','g']
+                let timeouts = [a,b,c,d,e,f,g]
         
                 for (let i = 0; i < timeouts.length; i++) {
                     const timeout = timeouts[i];
-                    clearTimeout(i)
+                    clearTimeout(timeout)
                 }
         }
         alert = setInterval(() => {
