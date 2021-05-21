@@ -44,7 +44,6 @@ exports.timer = function (msg, fs) {
             pomodoro()
         }, 6300000);
     }
-
     }`, function (err) {
         if (err) return console.log(err);
         console.log(`${msg.author.username} has created a timer`);

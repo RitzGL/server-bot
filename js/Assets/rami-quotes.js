@@ -17,14 +17,20 @@ exports.generateQuote = async function readTextFile(msg) {
     msg.channel.send(quote);
 }
 
-exports.add = async function (argsString) {
+exports.add = async function (argsString, msg) {
     let filteredArray = await fileArrayer(10);
-    filteredArray.quotes.push(`\'`+argsString.replace('?quoteadd ','')+`\'`)
+    filteredArray.quotes.push(`\'` + argsString.replace('!addquote ', '') + `\'`)
     fs.writeFile(`./Assets/RAMI-QUOTES.json`, JSON.stringify(filteredArray),
         function (err) {
             if (err) return console.log(err);
-            console.log(`added the quote ${argsString.replace('?quoteadd ','')}`);
+            msg.channel.send(`added the quote ${argsString.replace('!addquote ', '')}`);
         })
+}
+
+exports.all = async function (msg) {
+    msg.channel.send({
+        files: ['./Assets/RAMI-QUOTES.json']
+      })
 }
 
 function fileArrayer(quotes) {
@@ -34,8 +40,8 @@ function fileArrayer(quotes) {
                 console.error(err);
                 return;
             }
-           let datatrans = JSON.parse(data)
-           resolve(datatrans)
+            let datatrans = JSON.parse(data)
+            resolve(datatrans)
         })
     });
 }

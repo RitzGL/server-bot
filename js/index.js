@@ -2,7 +2,7 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '?';
+const cmd = '!';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 
@@ -66,9 +66,11 @@ bot.on('message', msg => {
     quotes.generateQuote(msg);
   }
   if(command == `${cmd}addquote`){
-    quotes.add(argsString);
+    quotes.add(argsString,msg);
   }
-
+  if(command == `${cmd}allquotes`){
+    quotes.all(msg);
+  }
 
   if (command == `${cmd}inspire`) {
     inspire.inspire(msg, args, fs)
