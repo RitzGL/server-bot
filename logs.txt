@@ -884,3 +884,89 @@
 2021-05-21T19:17:04: ReferenceError: g is not defined
 2021-05-21T19:17:04:     at Object.exports.add (/home/rizer/server-bot/js/Assets/rami-quotes.js:23:91)
 2021-05-21T19:18:00: Logged in as RamiBot#6041!
+2021-05-22T09:36:22: 164
+2021-05-22T09:40:48: 164
+2021-05-22T10:24:51: 164
+2021-05-22T11:42:56: 164
+2021-05-22T11:43:25: 164
+2021-05-22T11:50:05: 167975644670459904
+2021-05-22T11:50:05: Priony (Steph) has created a timer
+2021-05-22T15:30:04: timer stopped
+2021-05-22T15:30:04: 167975644670459904
+2021-05-22T16:19:11: timer stopped
+2021-05-22T16:19:11: 167975644670459904
+2021-05-22T16:19:11: [Error: ENOENT: no such file or directory, unlink './Assets/secretStuff/167975644670459904.js'] {
+2021-05-22T16:19:11:   errno: -2,
+2021-05-22T16:19:11:   code: 'ENOENT',
+2021-05-22T16:19:11:   syscall: 'unlink',
+2021-05-22T16:19:11:   path: './Assets/secretStuff/167975644670459904.js'
+2021-05-22T16:19:11: }
+2021-05-22T16:20:33: timer stopped
+2021-05-22T16:20:33: 167975644670459904
+2021-05-22T16:20:33: [Error: ENOENT: no such file or directory, unlink './Assets/secretStuff/167975644670459904.js'] {
+2021-05-22T16:20:33:   errno: -2,
+2021-05-22T16:20:33:   code: 'ENOENT',
+2021-05-22T16:20:33:   syscall: 'unlink',
+2021-05-22T16:20:33:   path: './Assets/secretStuff/167975644670459904.js'
+2021-05-22T16:20:33: }
+2021-05-22T17:55:18: Error: Cannot find module './secretStuff/210746479403335680.js'
+2021-05-22T17:55:18: Require stack:
+2021-05-22T17:55:18: - /home/rizer/server-bot/js/Assets/pomodoro.js
+2021-05-22T17:55:18: - /home/rizer/server-bot/js/index.js
+2021-05-22T17:55:18:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-05-22T17:55:18:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-05-22T17:55:18:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-05-22T17:55:18:     at Object.exports.endTimer (/home/rizer/server-bot/js/Assets/pomodoro.js:61:17)
+2021-05-22T17:55:18:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:86:14)
+2021-05-22T17:55:18:     at Client.emit (node:events:377:35)
+2021-05-22T17:55:18:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-22T17:55:18:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-22T17:55:18:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-22T17:55:18:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-22T17:55:18:   code: 'MODULE_NOT_FOUND',
+2021-05-22T17:55:18:   requireStack: [
+2021-05-22T17:55:18:     '/home/rizer/server-bot/js/Assets/pomodoro.js',
+2021-05-22T17:55:18:     '/home/rizer/server-bot/js/index.js'
+2021-05-22T17:55:18:   ]
+2021-05-22T17:55:18: }
+2021-05-22T17:55:20: Logged in as RamiBot#6041!
+2021-05-22T17:55:48: 210746479403335680
+2021-05-22T17:55:48: RiZeR has created a timer
+2021-05-22T17:55:54: timer stopped
+2021-05-22T17:55:54: 210746479403335680
+2021-05-22T18:32:10: Error: Cannot find module './secretStuff/167975644670459904.js'
+2021-05-22T18:32:10: Require stack:
+2021-05-22T18:32:10: - /home/rizer/server-bot/js/Assets/pomodoro.js
+2021-05-22T18:32:10: - /home/rizer/server-bot/js/index.js
+2021-05-22T18:32:10:     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:940:15)
+2021-05-22T18:32:10:     at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+2021-05-22T18:32:10:     at require (node:internal/modules/cjs/helpers:93:18)
+2021-05-22T18:32:10:     at Object.exports.endTimer (/home/rizer/server-bot/js/Assets/pomodoro.js:61:17)
+2021-05-22T18:32:10:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:86:14)
+2021-05-22T18:32:10:     at Client.emit (node:events:377:35)
+2021-05-22T18:32:10:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-22T18:32:10:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-22T18:32:10:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-22T18:32:10:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-22T18:32:10:   code: 'MODULE_NOT_FOUND',
+2021-05-22T18:32:10:   requireStack: [
+2021-05-22T18:32:10:     '/home/rizer/server-bot/js/Assets/pomodoro.js',
+2021-05-22T18:32:10:     '/home/rizer/server-bot/js/index.js'
+2021-05-22T18:32:10:   ]
+2021-05-22T18:32:10: }
+2021-05-22T18:32:12: Logged in as RamiBot#6041!
+2021-05-22T18:56:43: 164
+2021-05-22T18:56:53: DiscordAPIError: Cannot execute action on a DM channel
+2021-05-22T18:56:53:     at RequestHandler.execute (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:154:13)
+2021-05-22T18:56:53:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-22T18:56:53:     at async RequestHandler.push (/home/rizer/server-bot/js/node_modules/discord.js/src/rest/RequestHandler.js:39:14)
+2021-05-22T18:56:53:     at async MessageManager.delete (/home/rizer/server-bot/js/node_modules/discord.js/src/managers/MessageManager.js:126:5) {
+2021-05-22T18:56:53:   method: 'delete',
+2021-05-22T18:56:53:   path: '/channels/844467864198184980/messages/845616200058535936',
+2021-05-22T18:56:53:   code: 50003,
+2021-05-22T18:56:53:   httpStatus: 403
+2021-05-22T18:56:53: }
+2021-05-23T11:51:43: 164
+2021-05-23T12:11:27: 164
+2021-05-23T12:51:18: 164
+2021-05-24T21:26:54: Logged in as RamiBot#6041!

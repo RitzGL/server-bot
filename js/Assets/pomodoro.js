@@ -4,6 +4,9 @@ exports.timer = function (msg, fs) {
     exports.interval = function (msg) {
         let pomos = 0
         pomodoro()
+        alert = setInterval(() => {
+            pomodoro()
+        }, 90000);
         function pomodoro() {
             msg.author.send('Start working! <3')
             var a = setTimeout(() => {
@@ -30,8 +33,7 @@ exports.timer = function (msg, fs) {
             var g = setTimeout(() => {
                 pomos++
                 msg.author.send(\`take 30 mins off you deserve it, \${pomos} Pomodoros!\`) 
-            },4500000)
-            exports.stop = function () {
+            },4500000)            exports.stop = function () {
                 clearInterval(alert)
                 let timeouts = [a,b,c,d,e,f,g]
         
@@ -40,9 +42,6 @@ exports.timer = function (msg, fs) {
                     clearTimeout(timeout)
                 }
         }
-        alert = setInterval(() => {
-            pomodoro()
-        }, 6300000);
     }
     }`, function (err) {
         if (err) return console.log(err);
