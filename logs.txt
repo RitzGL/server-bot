@@ -970,3 +970,69 @@
 2021-05-23T12:11:27: 164
 2021-05-23T12:51:18: 164
 2021-05-24T21:26:54: Logged in as RamiBot#6041!
+2021-05-27T15:31:42: Logged in as RamiBot#6041!
+2021-05-27T15:54:14: Error: ENOENT: no such file or directory, open './Assets/userProfiles/274578726371459073.json'
+2021-05-27T15:54:14:     at Object.openSync (node:fs:506:3)
+2021-05-27T15:54:14:     at Object.readFileSync (node:fs:402:35)
+2021-05-27T15:54:14:     at jsonContent (/home/rizer/server-bot/js/Assets/level.js:60:36)
+2021-05-27T15:54:14:     at Object.exports.levelCheck (/home/rizer/server-bot/js/Assets/level.js:62:5)
+2021-05-27T15:54:14:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:41:14)
+2021-05-27T15:54:14:     at Client.emit (node:events:377:35)
+2021-05-27T15:54:14:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-27T15:54:14:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-27T15:54:14:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-27T15:54:14:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-27T15:54:14:   errno: -2,
+2021-05-27T15:54:14:   syscall: 'open',
+2021-05-27T15:54:14:   code: 'ENOENT',
+2021-05-27T15:54:14:   path: './Assets/userProfiles/274578726371459073.json'
+2021-05-27T15:54:14: }
+2021-05-27T17:08:14: Error: ENOENT: no such file or directory, open './Assets/userProfiles/814679993060687882.json'
+2021-05-27T17:08:14:     at Object.openSync (node:fs:506:3)
+2021-05-27T17:08:14:     at Object.readFileSync (node:fs:402:35)
+2021-05-27T17:08:14:     at jsonContent (/home/rizer/server-bot/js/Assets/level.js:60:36)
+2021-05-27T17:08:14:     at Object.exports.levelCheck (/home/rizer/server-bot/js/Assets/level.js:62:5)
+2021-05-27T17:08:14:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:41:14)
+2021-05-27T17:08:14:     at Client.emit (node:events:377:35)
+2021-05-27T17:08:14:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-27T17:08:14:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-27T17:08:14:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-27T17:08:14:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-27T17:08:14:   errno: -2,
+2021-05-27T17:08:14:   syscall: 'open',
+2021-05-27T17:08:14:   code: 'ENOENT',
+2021-05-27T17:08:14:   path: './Assets/userProfiles/814679993060687882.json'
+2021-05-27T17:08:14: }
+2021-05-27T17:10:53: Error: ENOENT: no such file or directory, open './Assets/userProfiles/284587104430981121.json'
+2021-05-27T17:10:53:     at Object.openSync (node:fs:506:3)
+2021-05-27T17:10:53:     at Object.readFileSync (node:fs:402:35)
+2021-05-27T17:10:53:     at jsonContent (/home/rizer/server-bot/js/Assets/level.js:60:36)
+2021-05-27T17:10:53:     at Object.exports.levelCheck (/home/rizer/server-bot/js/Assets/level.js:62:5)
+2021-05-27T17:10:53:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:41:14)
+2021-05-27T17:10:53:     at Client.emit (node:events:377:35)
+2021-05-27T17:10:53:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-27T17:10:53:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-27T17:10:53:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-27T17:10:53:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-27T17:10:53:   errno: -2,
+2021-05-27T17:10:53:   syscall: 'open',
+2021-05-27T17:10:53:   code: 'ENOENT',
+2021-05-27T17:10:53:   path: './Assets/userProfiles/284587104430981121.json'
+2021-05-27T17:10:53: }
+2021-05-27T17:59:20: Error: ENOENT: no such file or directory, open './Assets/userProfiles/814352695968137246.json'
+2021-05-27T17:59:20:     at Object.openSync (node:fs:506:3)
+2021-05-27T17:59:20:     at Object.readFileSync (node:fs:402:35)
+2021-05-27T17:59:20:     at jsonContent (/home/rizer/server-bot/js/Assets/level.js:60:36)
+2021-05-27T17:59:20:     at Object.exports.levelCheck (/home/rizer/server-bot/js/Assets/level.js:62:5)
+2021-05-27T17:59:20:     at Client.<anonymous> (/home/rizer/server-bot/js/index.js:41:14)
+2021-05-27T17:59:20:     at Client.emit (node:events:377:35)
+2021-05-27T17:59:20:     at MessageCreateAction.handle (/home/rizer/server-bot/js/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+2021-05-27T17:59:20:     at Object.module.exports [as MESSAGE_CREATE] (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+2021-05-27T17:59:20:     at WebSocketManager.handlePacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+2021-05-27T17:59:20:     at WebSocketShard.onPacket (/home/rizer/server-bot/js/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22) {
+2021-05-27T17:59:20:   errno: -2,
+2021-05-27T17:59:20:   syscall: 'open',
+2021-05-27T17:59:20:   code: 'ENOENT',
+2021-05-27T17:59:20:   path: './Assets/userProfiles/814352695968137246.json'
+2021-05-27T17:59:20: }
+2021-05-27T18:11:48: Logged in as RamiBot#6041!
