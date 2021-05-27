@@ -61,6 +61,6 @@ exports.levelCheck = function (msg) {
     }
     jsonContent(file).then((value) => {
         var user = JSON.parse(value)
-        msg.reply(`your level is ${user["level"]} and you have ${user["exp"]}XP of ${user["level"] * 1.15 * 100}XP`)
+        msg.reply(`your level is ${user["level"]} and you have ${user["exp"]}XP of ${Math.ceil(user["level"] * 1.15 * 100)}XP`)
     })
 }
