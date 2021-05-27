@@ -10,7 +10,7 @@ exports.check = function (msg) {
         if (value === true) {
             return
         } else {
-            fs.writeFileSync(`./Assets/userProfiles/${msg.author.id}.json`, JSON.stringify(JSON.parse('{"user":[]}')), function (err) {
+            fs.writeFileSync(`./Assets/userProfiles/${msg.author.id}.json`, JSON.stringify(JSON.parse('{"user":"blank"}')), function (err) {
                 console.log(err);
                 console.log(`${msg.author.username} file created`);
                 msg.reply("You are now in the system. Rami is watching :eyes:")
@@ -38,6 +38,7 @@ exports.check = function (msg) {
         }).then((user) => {
             newExp = msg.content.length
             user["exp"] += newExp
+            user["user"] = msg.author.username
             fs.writeFileSync(`./Assets/userProfiles/${msg.author.id}.json`, JSON.stringify(user), function (err) {
             })
             return user

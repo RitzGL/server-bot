@@ -1036,3 +1036,8 @@
 2021-05-27T17:59:20:   path: './Assets/userProfiles/814352695968137246.json'
 2021-05-27T17:59:20: }
 2021-05-27T18:11:48: Logged in as RamiBot#6041!
+2021-05-27T19:12:44: Logged in as RamiBot#6041!
+2021-05-27T20:13:45: SyntaxError: Unexpected end of JSON input
+2021-05-27T20:13:45:     at JSON.parse (<anonymous>)
+2021-05-27T20:13:45:     at /home/rizer/server-bot/js/Assets/level.js:24:29
+2021-05-27T20:13:45:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
