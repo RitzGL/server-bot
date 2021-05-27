@@ -3,4 +3,5 @@
 node_modules/
 js/helloworld.md
 js/Assets/secretStuff/.
-js/Assets/userProfiles/.
+js/Assets/userProfiles/*
+!js/Assets/userProfiles/.gitkeep

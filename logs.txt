@@ -1041,3 +1041,4 @@
 2021-05-27T20:13:45:     at JSON.parse (<anonymous>)
 2021-05-27T20:13:45:     at /home/rizer/server-bot/js/Assets/level.js:24:29
 2021-05-27T20:13:45:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2021-05-27T20:25:54: Logged in as RamiBot#6041!
