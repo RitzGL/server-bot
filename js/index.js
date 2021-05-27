@@ -2,10 +2,10 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '!';
+const cmd = '?';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
-
+const leveling = require('./Assets/level')
 const stock = require('./Assets/stock')
 const readme = require('./Assets/READMEGen')
 
@@ -23,6 +23,7 @@ bot.on('ready', () => {
 });
 
 bot.on('message', msg => {
+  leveling.check(msg);
   if (!msg.content.startsWith(cmd) || msg.author.bot) return;
   const args = msg.content.slice(msg.length).trim().split(' ');
   const argsString = msg.content;
@@ -34,6 +35,10 @@ bot.on('message', msg => {
 
   if (command == `${cmd}joke`) {
     joke.dad(msg, axios)
+  }
+
+  if (command == `${cmd}level`) {
+    leveling.levelCheck(msg)
   }
 
   if (msg.content == `${cmd}flip`) {
