@@ -3,6 +3,10 @@ const level = require('./level')
 
 exports.birth = async function (msg, args) {
     level.check(msg)
+    var birthdate = ""
+    for (i = 1; i < args.length; i++) {
+         birthdate += `${args[i]} `;
+    }
     if(!args[0]){
         msg.reply("please specify a person")
         return
@@ -20,14 +24,15 @@ exports.birth = async function (msg, args) {
     jsonContent(file).then((value) => {
         var user = JSON.parse(value)
         if (value.toString().includes('birthday') && args[1]) {
-            user["birthday"] = args[1]
+
+            user["birthday"] = birthdate
             fs.writeFileSync(`./Assets/userProfiles/${userID}.json`, JSON.stringify(user), function (err) {
             })
         } else {
             if(!args[1]){
                 msg.channel.send(`${user["user"]}'s birthday is on ${user["birthday"]}`)
             } else{
-            user["birthday"] = args[1]
+                user["birthday"] = birthdate
             fs.writeFileSync(`./Assets/userProfiles/${userID}.json`, JSON.stringify(user), function (err) {
             })
     }}

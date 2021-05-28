@@ -2,7 +2,7 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '?';
+const cmd = '!';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 const leveling = require('./Assets/level')
@@ -93,7 +93,7 @@ bot.on('message', msg => {
     // let user = require(`./Assets/${msg.author.id}`)
   }
 
-  if(command == `${cmd}birthday`) {
+  if(command == `${cmd}birth`) {
     bDay.birth(msg,args)
   } 
 
