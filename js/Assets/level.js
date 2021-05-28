@@ -10,10 +10,10 @@ exports.check = function (msg) {
         if (value === true) {
             return
         } else {
+            msg.reply("You are now in the system. Rami is watching :eyes:")
             fs.writeFileSync(`./Assets/userProfiles/${msg.author.id}.json`, JSON.stringify(JSON.parse('{"user":"blank"}')), function (err) {
                 console.log(err);
                 console.log(`${msg.author.username} file created`);
-                msg.reply("You are now in the system. Rami is watching :eyes:")
             })
         }
     }).then(() => {

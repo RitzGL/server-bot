@@ -2,13 +2,13 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '!';
+const cmd = '?';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 const leveling = require('./Assets/level')
 const stock = require('./Assets/stock')
 const readme = require('./Assets/READMEGen')
-
+const bDay = require('./Assets/birthday')
 const quotes = require('./Assets/rami-quotes');
 const { title } = require('process');
 const music = require('./Assets/music')
@@ -92,6 +92,10 @@ bot.on('message', msg => {
     console.log(msg.author.id)
     // let user = require(`./Assets/${msg.author.id}`)
   }
+
+  if(command == `${cmd}birthday`) {
+    bDay.birth(msg,args)
+  } 
 
   if (command == `${cmd}tough`) {
     msg.author.send('Do better... Please')
