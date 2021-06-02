@@ -1,11 +1,12 @@
-exports.help = async function (msg,args,fs) {
-    // var json = fs.
-    // msg.channel.send(args)
+exports.help = async function (msg, args, fs) {
     var response = await fs.readFileSync('./Assets/helpText.json');
     var stringresponse = JSON.parse(response);
+    if (msg.content == "!help") {
+        return msg.channel.send(stringresponse.cmd)
+    }
     if (stringresponse[args]) {
-        msg.channel.send(stringresponse[args]); 
+        return msg.channel.send(stringresponse[args]);
     } else {
-        msg.channel.send("could not find command")
+        return msg.channel.send("could not find command")
     }
 }
