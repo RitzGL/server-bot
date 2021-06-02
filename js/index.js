@@ -2,7 +2,7 @@ require('dotenv').config({ path: '.env' });
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const TOKEN = process.env.TOKEN;
-const cmd = '!';
+const cmd = '?';
 const coin = require("./Assets/coin-flip.js");
 const axios = require('axios');
 const leveling = require('./Assets/level')
@@ -16,6 +16,7 @@ fs = require('fs');
 const joke = require('./Assets/dadJokes')
 const inspire = require(`./Assets/inspire`)
 const pomodoro = require(`./Assets/pomodoro`)
+const help = require('./Assets/help')
 bot.login(TOKEN);
 
 bot.on('ready', () => {
@@ -28,6 +29,10 @@ bot.on('message', msg => {
   const args = msg.content.slice(msg.length).trim().split(' ');
   const argsString = msg.content;
   const command = args.shift().toLowerCase();
+
+  if (command == `${cmd}help`) {
+    help.help(msg,args,fs)
+  }
 
   if (command == `${cmd}whatis`) {
     msg.channel.send(`https://developer.mozilla.org/en-US/search?q=${args}`);
