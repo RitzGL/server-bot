@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "UWA Discord Bot",
   "main": "index.js",
-  "engine": {
+  "engines": {
     "node": "^16.5.0"
   },
   "scripts": {
