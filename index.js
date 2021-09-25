@@ -6,6 +6,8 @@ const token = process.env.TOKEN;
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
+const getRandomQuote = require('./commands/ramiQuote');
+
 client.once('ready', () => {
   console.log('Ready!');
 });
@@ -21,6 +23,8 @@ client.on('interactionCreate', async (interaction) => {
     await interaction.reply('Server info.');
   } else if (commandName === 'user') {
     await interaction.reply('User info.');
+  } else if (commandName === 'quote') {
+    await interaction.reply(getRandomQuote());
   }
 });
 

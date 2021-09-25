@@ -18,6 +18,9 @@ const commands = [
   new SlashCommandBuilder()
     .setName('user')
     .setDescription('Replies with user info!'),
+  new SlashCommandBuilder()
+    .setName('quote')
+    .setDescription('Replies with a quote from Rami Quotes DB!'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
