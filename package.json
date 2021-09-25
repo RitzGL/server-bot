@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "localDev": "nodemon index.js",
+    "localDev": "nodemon -r dotenv/config index.js",
     "deployCommands": "node deployCommands.js"
   },
   "repository": {
@@ -26,7 +26,8 @@
     "@discordjs/rest": "^0.1.0-canary.0",
     "discord-api-types": "^0.22.0",
     "discord.js": "^13.1.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "node-discord-logger": "^1.2.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.7",
@@ -45,8 +46,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.13",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.3",
-    "nodemon": "^2.0.13"
+    "typescript": "^4.4.3"
   }
 }
