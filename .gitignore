@@ -1,5 +1,5 @@
 .DS_Store
-
+.prod.env
 # Logs
 logs
 *.log
