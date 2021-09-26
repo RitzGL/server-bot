@@ -3,6 +3,10 @@
 ## What this is.
 This is the most recent iteration of the Daddy Rami Bot. I encourage all to help develop it and work on new features. This is for of the original project created by @Au-Rizer & @RitzGL. The original files have been archived out to the oldFiles dir. Developing on a communal bot can be a bit hard to pull off. I suggest that for anybody wanting to contribute or play with the code to create their own test server and bot and use the code from this repo to power it. This will allow you to work on the bot simultaneously in your own sandbox. This copy of the bot is hosted on DigitalOcean and I will setup the repo to push master to prod on merge.
 
+## Scripts
+`npm run localDev` - Starts the bot-server with nodemon and loads your local env variable from your `.env` file\
+`npm run deployCommands` - Runs a script to update the auto-populated bot commands when you hit `/` in the chat input field.
+
 ## How to contribute?
 ### Get a Local Dev Environment setup
 Steps to setup a local instance of the bot to start development.
@@ -41,3 +45,11 @@ Replace the above with the correct values for your instance:\
 4. Push the branch up to github **after** you have rebased.
 5. Open a PR.
 6. Once the PR is reviewed and merged your feature will be in the prod version of the bot on the UWA server.
+
+### Steps for creating a command
+1. Build out the handler in a separate js file in `./commands`
+2. Import the file into the `./commands/index.js` file
+3. Add it to the switch statement in `./commands/index.js`
+4. For this command to auto-populate using a `/` in discord, you will need to manually run the commandDeploy script with `npm run deployCommands`. This will update the commands on your local test-bot.\
+ **Note**: This happens as part of the auto GH action when a new version of master is deployed to the prod server.
+
