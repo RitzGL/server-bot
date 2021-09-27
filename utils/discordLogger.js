@@ -1,5 +1,7 @@
 const { default: DiscordLogger } = require('node-discord-logger');
 const os = require('os');
+// This is the logging module that allows the server to log back to the #bot-status channel.
+// This Logger will silentely error if no DISCORD_WEBHOOK exists, such as running in a local dev environment.
 
 const logger = new DiscordLogger({
   hook: process.env.DISCORD_WEBHOOK,
