@@ -1,5 +1,7 @@
 .DS_Store
-.prod.env
+*.env
+*.sqlite
+
 # Logs
 logs
 *.log
