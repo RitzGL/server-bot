@@ -8,9 +8,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.once('ready', async () => {
   console.log('Connected to Bot');
-  await sequelize.sync({
-    force: true,
-  });
+  await sequelize.sync();
   console.log('Connected to Database');
   logger.info({
     message: 'Production Server Online & Connected to Database',
