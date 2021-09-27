@@ -11,7 +11,9 @@ function getCommandResponse(command, interaction) {
     case 'setpostcode':
       return setPostcode(interaction);
     case 'weather':
-      return weatherFromLocation(interaction);
+      return weatherFromLocation(false, interaction);
+    case 'forecast':
+      return weatherFromLocation(true, interaction);
     default:
       break;
   }

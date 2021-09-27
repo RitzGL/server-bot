@@ -33,6 +33,9 @@ const commands = [
   new SlashCommandBuilder()
     .setName('weather')
     .setDescription("Today's weather from saved location"),
+  new SlashCommandBuilder()
+    .setName('forecast')
+    .setDescription('Weather forecast from saved location'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);

@@ -9,7 +9,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.once('ready', async () => {
   console.log('Connected to Bot');
   await sequelize.sync({
-    // force: true,
+    force: true,
   });
   console.log('Connected to Database');
   logger.info({
