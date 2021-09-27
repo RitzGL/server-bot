@@ -21,6 +21,15 @@ const commands = [
   new SlashCommandBuilder()
     .setName('quote')
     .setDescription('Replies with a quote from Rami Quotes DB!'),
+  new SlashCommandBuilder()
+    .setName('setpostcode')
+    .setDescription('Set your postcode for the weather command')
+    .addStringOption((option) =>
+      option
+        .setName('postcode')
+        .setDescription('Enter the postcode to use for getting weather')
+        .setRequired(true)
+    ),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);

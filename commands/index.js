@@ -1,15 +1,14 @@
 const getRandomQuote = require('./ramiQuote');
+const setPostcode = require('./setPostcode');
 
-function getCommandResponse(command) {
+async function getCommandResponse(command, interaction) {
   switch (command) {
     case 'ping':
-      return 'Pong';
-    case 'server':
-      return 'Server Info';
-    case 'user':
-      return 'User info,';
+      return interaction.reply('Pong');
     case 'quote':
-      return getRandomQuote();
+      return interaction.reply(getRandomQuote());
+    case 'setpostcode':
+      return setPostcode(interaction);
     default:
       break;
   }
