@@ -1,7 +1,8 @@
 const getRandomQuote = require('./ramiQuote');
 const setPostcode = require('./setPostcode');
+const { weatherFromLocation } = require('./weather');
 
-async function getCommandResponse(command, interaction) {
+function getCommandResponse(command, interaction) {
   switch (command) {
     case 'ping':
       return interaction.reply('Pong');
@@ -9,6 +10,8 @@ async function getCommandResponse(command, interaction) {
       return interaction.reply(getRandomQuote());
     case 'setpostcode':
       return setPostcode(interaction);
+    case 'weather':
+      return weatherFromLocation(interaction);
     default:
       break;
   }

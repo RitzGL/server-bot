@@ -30,6 +30,9 @@ const commands = [
         .setDescription('Enter the postcode to use for getting weather')
         .setRequired(true)
     ),
+  new SlashCommandBuilder()
+    .setName('weather')
+    .setDescription("Today's weather from saved location"),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
