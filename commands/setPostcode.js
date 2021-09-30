@@ -19,9 +19,10 @@ async function setPostcode(interaction) {
       { postcode },
       { where: { user_id: id }, returning: true }
     );
-    return interaction.reply(
-      `User: ${username} UPDATED with postcode set to ${postcode}`
-    );
+    return interaction.reply({
+      content: `User: ${username} UPDATED with postcode set to ${postcode}`,
+      ephemeral: true,
+    });
   } catch (error) {
     return interaction.reply(`Error in setPostcode: ${error.message}`);
   }
