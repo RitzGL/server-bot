@@ -14,6 +14,10 @@ function getCommandResponse(command, interaction) {
       return weatherFromLocation(false, interaction);
     case 'forecast':
       return weatherFromLocation(true, interaction);
+    case 'weatherchannel':
+      return weatherFromLocation(false, interaction, false); // TODO make this take an object so it is a bit more verbose
+    case 'forecastchannel':
+      return weatherFromLocation(true, interaction, false); // TODO make this take an object so it is a bit more verbose
     default:
       break;
   }

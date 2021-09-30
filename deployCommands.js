@@ -13,12 +13,6 @@ const commands = [
     .setName('ping')
     .setDescription('Replies with pong!'),
   new SlashCommandBuilder()
-    .setName('server')
-    .setDescription('Replies with server info!'),
-  new SlashCommandBuilder()
-    .setName('user')
-    .setDescription('Replies with user info!'),
-  new SlashCommandBuilder()
     .setName('quote')
     .setDescription('Replies with a quote from Rami Quotes DB!'),
   new SlashCommandBuilder()
@@ -34,8 +28,14 @@ const commands = [
     .setName('weather')
     .setDescription("Today's weather from saved location"),
   new SlashCommandBuilder()
+    .setName('weatherchannel')
+    .setDescription("Today's weather from saved location sent to channel"),
+  new SlashCommandBuilder()
     .setName('forecast')
     .setDescription('Weather forecast from saved location'),
+  new SlashCommandBuilder()
+    .setName('forecastchannel')
+    .setDescription('Weather forecast from saved location sent to channel'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
