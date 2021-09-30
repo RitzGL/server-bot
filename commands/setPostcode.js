@@ -11,17 +11,19 @@ async function setPostcode(interaction) {
         username,
         postcode,
       });
-      return interaction.reply(
-        `User: ${newUser.username} CREATED with postcode set to ${newUser.postcode}`
-      );
+      return interaction.reply({
+        content: `User: ${newUser.username} CREATED with postcode set to ${newUser.postcode}`,
+        ephemeral: true,
+      });
     }
     await User.update(
       { postcode },
       { where: { user_id: id }, returning: true }
     );
-    return interaction.reply(
-      `User: ${username} UPDATED with postcode set to ${postcode}`
-    );
+    return interaction.reply({
+      content: `User: ${username} UPDATED with postcode set to ${postcode}`,
+      ephemeral: true,
+    });
   } catch (error) {
     return interaction.reply(`Error in setPostcode: ${error.message}`);
   }
